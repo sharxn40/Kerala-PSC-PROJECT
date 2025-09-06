@@ -23,7 +23,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
     if (password_verify($password, $user['password'])) {
       $_SESSION['user_id'] = $user['id'];
-      header("Location: kerala_psc_index.php?success=Login successful");
+      header("Location: index.php?success=Login successful");
       exit();
     } else {
       header("Location: login_page.php?error=Invalid password");

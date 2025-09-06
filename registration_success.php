@@ -246,7 +246,7 @@ $username = $_SESSION['username'] ?? 'User';
 
         <div class="action-buttons">
             <a href="login_page.php" class="btn btn-primary">Login Now</a>
-            <a href="kerala_psc_index.php" class="btn btn-secondary">Go to Homepage</a>
+            <a href="index.php" class="btn btn-secondary">Go to Homepage</a>
         </div>
     </div>
 

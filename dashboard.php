@@ -111,7 +111,7 @@ $user = $result->fetch_assoc();
     <header>
         <div class="logo">Kerala PSC</div>
         <nav>
-            <a href="kerala_psc_index.php" class="btn">Home</a>
+            <a href="index.php" class="btn">Home</a>
             <a href="logout.php" class="btn">Logout</a>
         </nav>
     </header>
